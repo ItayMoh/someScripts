@@ -1,0 +1,21 @@
+aquascript(){
+	cat $1 | aquatone -chrome-path ~/Desktop/tools/chromium-latest-linux/latest/chrome -ports xlarge
+} 
+
+How to use:
+1.open .bashrc
+2.copy the function into the file and save
+3. run source .bashrc to update and save changes
+4. run "aquascript DOMAINS.TXT"
+
+ffufr(){
+ffuf -c -w /home/lilbull3t/Desktop/wordlists/SecLists/Discovery/Web-Content/$1 -u http://$2/FUZZ -recursion
+}
+
+How to use:
+1.open .bashrc
+2.copy the function into the file and save
+3. run source .bashrc to update and save changes
+4. run "aquascript WORDLIST.TXT DOMAINNAME"
+
+
