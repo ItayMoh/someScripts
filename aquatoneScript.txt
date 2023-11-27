@@ -1,5 +1,5 @@
 aquascript(){
-	cat $1 | aquatone -chrome-path ~/Desktop/tools/chromium-latest-linux/latest/chrome -ports xlarge
+	cat $1 | aquatone -chrome-path ~/Desktop/tools/chromium-latest-linux/latest/chrome -ports xlarge -out $(pwd)
 } 
 
 How to use:
